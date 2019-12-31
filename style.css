@@ -45,3 +45,53 @@ nav a {
     width: 20px;
     margin-right: 1rem;
 }
+
+.search-join {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    width: 50px;
+    margin: 10px;
+}
+.magnifying-glass{
+    height: 15px;
+    width: 15px;
+    background-color:  rgba(0,0,0,.05);
+    padding-top: 3px; 
+}
+.search-engine {
+    border: none;
+    border-radius: 0;
+    width: 80%;
+
+}
+
+.search-engine input {
+    width: 85%;
+    background-color: rgba(0,0,0,.05);
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.search-engine button {
+    background-color: #fb3e44; 
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.join-log a {
+    text-decoration: none;
+    color: lightslategrey;
+    padding: 3px 10px;
+}
+.join-log #border {
+    border: 1px solid lightslategrey;
+}
