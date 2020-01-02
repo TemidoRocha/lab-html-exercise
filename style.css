@@ -162,6 +162,34 @@ nav a {
 .partThree {
     height: 600px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+.partThree > .npmFeatures {
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.partThree > .npmFeatures > div {
+    width: 20%;
+}
+.partThree > .npmFeatures > div > h3 {
+    color: #ED1C24;
+    padding: 15px 0;
+}
+#featuresImg {
+    width: 30px;
+}
+.partThree .orgCreation {
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 100px;
+    background-color: black;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    border: none;
+
 }
